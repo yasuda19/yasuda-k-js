@@ -1,5 +1,7 @@
-const user = "A-Host";
-const message1 = "Hello, " + user;
-const message2 = `Hello, ${user} AAA`;
-console.log(message1);
-console.log(message2);
+function simulateAsyncAPI(text, time) {
+  setTimeout(() => console.log(text), time);
+}
+
+simulateAsyncAPI("A", 1000);
+simulateAsyncAPI("B", 500);
+simulateAsyncAPI("C", 100);
