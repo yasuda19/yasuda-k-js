@@ -1,2 +1,2 @@
-# yasudak-js
+# yasuda-k-js
 Created with CodeSandbox
